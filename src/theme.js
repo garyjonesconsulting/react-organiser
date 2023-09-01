@@ -1,6 +1,6 @@
 import { createContext, useState, useMemo } from "react"
 import { createTheme } from "@mui/material"
-import { CopyAllOutlined } from "@mui/icons-material"
+// import { CopyAllOutlined } from "@mui/icons-material"
 
 // colour design tokens
 export const tokens = (mode) => ({
