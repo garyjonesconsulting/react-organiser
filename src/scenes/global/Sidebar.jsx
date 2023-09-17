@@ -75,7 +75,7 @@ const Sidebar = () => {
             {!isCollapsed && (
               <Box display="flex" justifyContent="space-between" alignItems="center" ml="15px">
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS
+                  SPENDING
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -87,7 +87,7 @@ const Sidebar = () => {
           {!isCollapsed && (
             <Box mb="25px">
               <Box display="flex" justifyContent="center" alignItems="center">
-                <a href="https://ajgary.com"><img alt="profile-user" width="100px" height="100px" src={`../../assets/user.png`} style={{ cursor: "pointer", borderRadius: "50%" }} /></a>
+                <img alt="profile-user" width="100px" height="100px" src={`../../assets/user.png`} style={{ cursor: "pointer", borderRadius: "50%" }} />
               </Box>
               <Box textAlign="center">
                 <Typography variant="h2" color={colors.grey[100]} fontWeight="bold" sx={{ m: "10px 0 0 0" }}>
