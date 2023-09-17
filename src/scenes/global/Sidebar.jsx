@@ -1,8 +1,5 @@
 import { useState } from "react"
-<<<<<<< HEAD
 import React from "react"
-=======
->>>>>>> a9d452617de102ee3a7399f4bf2b4f5c40a28adb
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar"
 import { Box, IconButton, Typography, useTheme } from "@mui/material"
 import { Link } from "react-router-dom"

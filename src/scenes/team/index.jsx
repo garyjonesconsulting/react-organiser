@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react"
 import { Box, Typography, useTheme } from "@mui/material"
 import { DataGrid } from "@mui/x-data-grid"
@@ -95,10 +94,3 @@ const Team = () => {
 }
 
 export default Team
-=======
-import { Box, Typographym, useTheme } from "@mui/material"
-import { DataGrid } from "@mui/x-data-grid"
-import { tokens } from "../../theme"
-import { mockDataTeam } from "../../data/mockData"
-import { AdminPanelSettingsOutlinedIcon } from "@mui/icons-material/AdminPanelSettingsOutlined"
->>>>>>> a9d452617de102ee3a7399f4bf2b4f5c40a28adb
